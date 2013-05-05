@@ -31,8 +31,9 @@ public class GenerateUUIDHandler extends AbstractHandler {
 		} else if (part instanceof MultiPageEditorPart) {
 			MultiPageEditorPart multipageEditorPart = (MultiPageEditorPart) part;
 
-			if (multipageEditorPart.getSelectedPage() instanceof ITextEditor) {
-				editor = (ITextEditor) multipageEditorPart.getSelectedPage();
+			if (null != multipageEditorPart.getAdapter(ITextEditor.class)) {
+				editor = (ITextEditor) multipageEditorPart
+						.getAdapter(ITextEditor.class);
 			}
 		}
 

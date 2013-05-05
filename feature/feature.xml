@@ -5,7 +5,7 @@
       version="1.0.0.qualifier"
       provider-name="madhead">
 
-   <description url="https://github.com/madhead/eclipse-uuid-generator-plugin">
+   <description url="http://madhead.github.io/eclipse-uuid-generator-plugin/">
       UUID generator
    </description>
 

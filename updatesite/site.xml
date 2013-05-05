@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="UUID generator plugin" url="http://madhead.github.io/eclipse-uuid-generator-plugin/updatesite/">
+      UUID generator plugin
+   </description>
+   <feature url="features/by.dev.madhead.eclipse.uuid_1.0.0.201305050339.jar" id="by.dev.madhead.eclipse.uuid" version="1.0.0.201305050339">
+      <category name="by.dev.madhead.eclipse.uuid"/>
+   </feature>
+   <category-def name="by.dev.madhead.eclipse.uuid" label="UUID generator"/>
+</site>

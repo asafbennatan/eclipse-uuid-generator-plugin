@@ -6,7 +6,7 @@
       provider-name="madhead">
 
    <description url="http://madhead.github.io/eclipse-uuid-generator-plugin/">
-      UUID generator
+      Generates UUIDs and pastes them to the editor
    </description>
 
    <copyright url="http://madhead.me">
